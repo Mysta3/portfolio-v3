@@ -82,7 +82,7 @@ function Initial() {
       </div>
       <div className="contact">
         <Card className={classes.card}>
-          <Link to="/contact-me">
+          <Link to="/contact">
             <CardActionArea className={classes.cardActionArea}>
               <CardContent>
                 <Typography

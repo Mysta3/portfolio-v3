@@ -6,7 +6,7 @@ import Initial from './Initial'
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
-    background: 'black',
+    background: '#212121',
     marginTop: '0',
     padding: '2%',
     textAlign: 'center',

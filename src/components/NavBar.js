@@ -12,10 +12,8 @@ const useStyles = makeStyles({
     flexGrow: 1,
     background: 'white',
     marginTop: '0',
-    textAlign: 'center',
-    boxShadow: '0px 6px 5px grey'
+    textAlign: 'center'
   },
-
   navBar: {
     marginTop: '2.5%',
     marginRight: '2%'
@@ -55,5 +53,6 @@ function NavBar() {
     </div>
   );
 }
+
 
 export default NavBar;

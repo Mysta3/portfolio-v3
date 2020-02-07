@@ -6,14 +6,14 @@ const useStyles = makeStyles({
   container: {
     textAlign: 'center',
     color: 'white',
-    background: 'black',
+    background: '#212121',
     padding: '2%'
   },
   paragraph: {
     fontSize: '25px',
     paddingLeft: '3%',
     paddingRight: '3%',
-    textShadow: '1px 1px 5px white'
+    textShadow: '1px 1px 1px white'
   },
   h1: {
     padding: '0',
@@ -31,7 +31,7 @@ function About() {
         <h3>
           <em>Full-Stack Software Engineer</em>
         </h3>
-        <img src="https://i.imgur.com/j8tPpiB.jpg" alt="profile picture" />
+        <img src="https://i.imgur.com/j8tPpiB.jpg" alt="profile" />
 
         <h2>Who Am I?</h2>
         <p className={classes.paragraph}>
