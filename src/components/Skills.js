@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Grow from '@material-ui/core/Grow';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -37,19 +38,45 @@ function Skills() {
       <div className={classes.container}>
         <span className={classes.title}>Skill-Set</span>
         <div className={classes.skillset}>
-          <i className="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <i className="devicon-sass-original colored"></i>
-          <i className="devicon-javascript-plain colored"></i>
-          <i className="devicon-git-plain-wordmark colored"></i>
-          <i className="devicon-github-plain-wordmark"></i>
-          <i class="devicon-react-original-wordmark"></i>
-          <i class="devicon-nodejs-plain-wordmark"></i>
-          <i className="devicon-express-original-wordmark"></i>
-          <i class="devicon-postgresql-plain-wordmark"></i>
-          <i class="devicon-mongodb-plain-wordmark"></i>
-          <i className="devicon-python-plain-wordmark colored"></i>
-          <i className="devicon-django-line-wordmark"></i>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-html5-plain-wordmark colored"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i class="devicon-css3-plain-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-sass-original colored"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-javascript-plain colored"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-git-plain-wordmark colored"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-github-plain-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i class="devicon-react-original-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i class="devicon-nodejs-plain-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-express-original-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i class="devicon-postgresql-plain-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i class="devicon-mongodb-plain-wordmark"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-python-plain-wordmark colored"></i>
+          </Grow>
+          <Grow in={true} timeout={2000}>
+            <i className="devicon-django-line-wordmark"></i>
+          </Grow>
         </div>
       </div>
     </div>

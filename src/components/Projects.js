@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import { makeStyles } from '@material-ui/core/styles';
+import Fade from '@material-ui/core/Fade';
 import '../index.css';
 
 const useStyles = makeStyles({
@@ -50,40 +51,46 @@ function Projects() {
       <div className={classes.container}>
         <span className={classes.title}>Projects</span>
         <div className={classes.projectBoard}>
-          <div className={classes.projectCard}>
-            <a href="https://mysta3.github.io/simon_app/">
-              <span className={classes.span}>SIMON SAYS - POKÉ STYLE</span>
-            </a>
-            <p>
-              Created using HTML, CSS with NES.css framework, and Vanilla
-              JavaScript with HOWLjs. Enjoy the original game of Simon Says with
-              a nostalgic Pokemon theme!{' '}
-              <strong>WARNING: SOUND EFFECTS ARE USED</strong>
-            </p>
-          </div>
-          <div className={classes.projectCard}>
-            <a href="https://advice-assistant-app.herokuapp.com/">
-              <span className={classes.span}>AD-VICE ASSISTANT APP</span>
-            </a>
-            <p>
-              Created using React.js + Hooks, Material-UI and a 3rd party API.
-              Whether you are looking for guidance, a lover of quotes, or even
-              just searching for your next Instagram caption. You can rest
-              assure you will find one here!
-            </p>
-          </div>
-          <div className={classes.projectCard}>
-            <a href="https://gatherupapp.herokuapp.com/">
-              <span className={classes.span}>GATHERUP APP</span>
-            </a>
-            <p>
-              Full Stack Application utilizing the MERN stack with full CRUD
-              capabilities. Created with a team of 4 developers utilizing AGILE
-              best practices where I operated as Scrum master/Software Developer
-              as well as using a Github Feature Branch workflow.
-            </p>
-          </div>
-
+          <Fade in={true} timeout={2000}>
+            <div className={classes.projectCard}>
+              <a href="https://mysta3.github.io/simon_app/">
+                <span className={classes.span}>SIMON SAYS - POKÉ STYLE</span>
+              </a>
+              <p>
+                Created using HTML, CSS with NES.css framework, and Vanilla
+                JavaScript with HOWLjs. Enjoy the original game of Simon Says
+                with a nostalgic Pokemon theme!{' '}
+                <strong>WARNING: SOUND EFFECTS ARE USED</strong>
+              </p>
+            </div>
+          </Fade>
+          <Fade in={true} timeout={3000}>
+            <div className={classes.projectCard}>
+              <a href="https://advice-assistant-app.herokuapp.com/">
+                <span className={classes.span}>AD-VICE ASSISTANT APP</span>
+              </a>
+              <p>
+                Created using React.js + Hooks, Material-UI and a 3rd party API.
+                Whether you are looking for guidance, a lover of quotes, or even
+                just searching for your next Instagram caption. You can rest
+                assure you will find one here!
+              </p>
+            </div>
+          </Fade>
+          <Fade in={true} timeout={4000}>
+            <div className={classes.projectCard}>
+              <a href="https://gatherupapp.herokuapp.com/">
+                <span className={classes.span}>GATHERUP APP</span>
+              </a>
+              <p>
+                Full Stack Application utilizing the MERN stack with full CRUD
+                capabilities. Created with a team of 4 developers utilizing
+                AGILE best practices where I operated as Scrum master/Software
+                Developer as well as using a Github Feature Branch workflow.
+              </p>
+            </div>
+          </Fade>
+          <Fade in={true} timeout={5000}>
           <div className={classes.projectCard}>
             <a href="https://squadup-app.herokuapp.com/squadup">
               <span className={classes.span}>SQUADUP APP</span>
@@ -94,6 +101,7 @@ function Projects() {
               the same gaming schedule!
             </p>
           </div>
+          </Fade>
         </div>
       </div>
     </div>
