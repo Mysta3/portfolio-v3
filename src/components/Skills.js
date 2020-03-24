@@ -42,7 +42,7 @@ function Skills() {
             <i className="devicon-html5-plain-wordmark colored"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
-            <i class="devicon-css3-plain-wordmark"></i>
+            <i className="devicon-css3-plain-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
             <i className="devicon-sass-original colored"></i>
@@ -57,19 +57,19 @@ function Skills() {
             <i className="devicon-github-plain-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
-            <i class="devicon-react-original-wordmark"></i>
+            <i className="devicon-react-original-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
-            <i class="devicon-nodejs-plain-wordmark"></i>
+            <i className="devicon-nodejs-plain-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
             <i className="devicon-express-original-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
-            <i class="devicon-postgresql-plain-wordmark"></i>
+            <i className="devicon-postgresql-plain-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
-            <i class="devicon-mongodb-plain-wordmark"></i>
+            <i className="devicon-mongodb-plain-wordmark"></i>
           </Grow>
           <Grow in={true} timeout={2000}>
             <i className="devicon-python-plain-wordmark colored"></i>
