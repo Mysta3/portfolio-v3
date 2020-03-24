@@ -1,47 +1,43 @@
 import React from 'react';
 import NavBar from './NavBar';
 import { makeStyles } from '@material-ui/core/styles';
+import '../index.css';
 
 const useStyles = makeStyles({
+  wrapper: {
+    overflowX: 'hidden'
+  },
   container: {
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
-    color: 'white',
-    background: '#212121',
-    padding: '2%',
+    background: '#6295D9',
     minHeight: '100vh',
     minWidth: '100vw',
     wordWrap: 'break-word'
   },
-  paragraph: {
-    fontSize: '25px',
-    paddingLeft: '3%',
-    paddingRight: '3%',
-    textShadow: '1px 1px 1px white'
-  },
   title: {
     textAlign: 'center',
-    padding: '0',
-    fontSize: '5rem',
-    textDecoration: 'underline',
-    marginTop: 0
+    fontSize: '15vh',
+    margin: '2vw'
   },
   projectBoard: {
     minWidth: '40vw',
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
+    textAlign: 'center',
     flexWrap: 'wrap'
   },
   projectCard: {
-    margin: '3vh',
-    maxWidth: '35vw',
+    margin: '5vh',
+    flexBasis: 'auto',
     fontSize: '1rem',
-    lineHeight: '5vh'
+    lineHeight: '4vh',
+    maxWidth: '30vw'
   },
   span: {
-    fontSize: '5vh',
-    color: 'white',
+    fontSize: '4vh',
+    color: '#000000',
     fontWeight: '800'
   }
 });
@@ -49,7 +45,7 @@ const useStyles = makeStyles({
 function Projects() {
   const classes = useStyles();
   return (
-    <div>
+    <div className={classes.wrapper}>
       <NavBar />
       <div className={classes.container}>
         <span className={classes.title}>Projects</span>
@@ -74,15 +70,6 @@ function Projects() {
               Whether you are looking for guidance, a lover of quotes, or even
               just searching for your next Instagram caption. You can rest
               assure you will find one here!
-            </p>
-          </div>
-
-          <div className={classes.projectCard}>
-            <a href="https://grab-a-joke.herokuapp.com/">
-              <span className={classes.span}>GRAB A JOKE APP</span>
-            </a>
-            <p>
-              Created using React.js + Hooks, CSS and a 3rd party RESTful API.
             </p>
           </div>
           <div className={classes.projectCard}>

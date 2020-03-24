@@ -8,8 +8,7 @@ import { Icon } from '@material-ui/core';
 const useStyles = makeStyles({
   container: {
     textAlign: 'center',
-    color: 'white',
-    background: '#212121',
+    background: '#6295D9',
     padding: '2%',
     minHeight: '80vh'
   },
@@ -17,7 +16,7 @@ const useStyles = makeStyles({
     fontSize: '22px',
     paddingLeft: '3%',
     paddingRight: '3%',
-    textShadow: '1px 1px 1px white'
+    textShadow: '1px 1px 1px #6295D9'
   },
   h1: {
     padding: '0',
@@ -25,7 +24,7 @@ const useStyles = makeStyles({
   },
   icon: {
     color: 'white',
-    fontSize: 40
+    fontSize: '4vw'
   }
 });
 
