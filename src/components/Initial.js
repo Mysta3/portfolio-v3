@@ -11,14 +11,14 @@ const useStyles = makeStyles({
   card: {
     height: '15rem',
     border: '2px solid black',
-    // padding: '1rem',
     margin: '4% auto'
   },
   cardActionArea: {
     height: '15rem'
   },
   h3: {
-    textAlign: `center`
+    textAlign: 'center',
+    color: 'black'
   }
 });
 

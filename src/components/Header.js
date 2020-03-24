@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
-import Initial from './Initial'
+import Initial from './Initial';
 
 const useStyles = makeStyles({
   root: {
@@ -10,7 +10,6 @@ const useStyles = makeStyles({
     marginTop: '0',
     padding: '2%',
     textAlign: 'center',
-    color: 'white',
     boxShadow: '0px 6px 5px grey'
   },
   title: {
@@ -20,6 +19,9 @@ const useStyles = makeStyles({
   },
   subTitle: {
     marginTop: '0'
+  },
+  link: {
+    color: 'white'
   }
 });
 
@@ -29,7 +31,7 @@ function ButtonAppBar() {
   return (
     <div>
       <header className={classes.root}>
-        <Link>
+        <Link to='/' className={classes.link}>
           <h1 className={classes.title}>Myshawne Stallings</h1>
           <h2 className={classes.subTitle}>
             <em>Software Engineer</em>
