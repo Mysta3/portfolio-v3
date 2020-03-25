@@ -10,7 +10,7 @@
 
 ### Images
 
-    - Photo by Oscar Nilsson on Unsplash
-    - Photo by Branko Stancevic on Unsplash
-    - Photo by Melinda Gimpel on Unsplash
-    - Photo by Octavian Dan on Unsplash
+- Photo by Oscar Nilsson on Unsplash.com
+- Photo by Branko Stancevic on Unsplash.com
+- Photo by Melinda Gimpel on Unsplash.com
+- Photo by Octavian Dan on Unsplash.com
