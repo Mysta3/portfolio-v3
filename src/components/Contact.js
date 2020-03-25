@@ -16,7 +16,8 @@ const useStyles = makeStyles({
     fontSize: '22px',
     paddingLeft: '3%',
     paddingRight: '3%',
-    textShadow: '1px 1px 1px #6295D9'
+    textShadow: '1px 1px 1px #6295D9',
+    color: 'black'
   },
   h1: {
     padding: '0',
@@ -52,7 +53,14 @@ function Contact() {
             <LinkedInIcon className={classes.icon} />
           </a>
         </Icon>
-        <p className={classes.paragraph}>Myshawnestallings@gmail.com</p>
+        <p>
+          <a
+            className={classes.paragraph}
+            href="mailto:myshawnestallings.com?subject=Job%20Inquiry&body=Please include name, phone number, and job description"
+          >
+            Myshawnestallings@gmail.com
+          </a>
+        </p>
       </div>
     </div>
   );
